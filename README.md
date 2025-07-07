@@ -5,3 +5,5 @@ Build a web application that allows users to upload and delete pictures. You can
 ● A whitelisting function must be implemented that allows access to the web application only from our VPN IP address: 20.218.226.24
 At the end, you must provide a valid URL where we can access the application and test uploading and deleting our pictures.
 If there are any issues or problems with setting up the web application, please send us your application directly and we will test it locally.
+
+This program was created using Java Spring Boot and HTML.
