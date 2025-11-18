@@ -1,9 +1,28 @@
-Challenge 1: Web App with Image-Upload
-Build a web application that allows users to upload and delete pictures. You can use any public resources. The following tasks are required:
-● The web application must have a function to upload and delete images.
-● A GitHub project must be created for this web application, and the code must be shared.
-● A whitelisting function must be implemented that allows access to the web application only from our VPN IP address: 20.218.226.24
-At the end, you must provide a valid URL where we can access the application and test uploading and deleting our pictures.
-If there are any issues or problems with setting up the web application, please send us your application directly and we will test it locally.
+# Challenge 1 – Web Application with Image Upload
 
-This program was created using Java Spring Boot and HTML.
+This project is a simple web application built with **Java Spring Boot** and **HTML**, allowing users to upload and delete images. It was created as part of Challenge 1.
+
+## 🚀 Features
+- Upload images through the web interface  
+- Delete previously uploaded images  
+- Display uploaded files  
+- Basic validation  
+- Access control (IP whitelisting)
+
+## 🔐 IP Whitelisting
+Access to the web application is strictly limited to the following VPN IP address:
+
+**20.218.226.24**
+
+Only requests coming from this IP are allowed to access the application.  
+This restriction can be configured or modified in the application’s security layer (e.g., filter, interceptor, or Spring Security config).
+
+## 🗂️ Technology Stack
+- Java 17+
+- Spring Boot
+- HTML / CSS
+- Maven
+- Thymeleaf (optional)
+- Local file storage for images
+
+
